@@ -55,10 +55,10 @@ export default function Home(props) {
           <h3>CDL Health Scanner</h3>
           <p>An online web-application that quickly & accurately measures a driver’s blood pressure, body mass index (BMI), heart rate, and respiration.</p>
         </a>
-        <a href="#BobPerry" target={ '_blank' } rel='noreferrer'>
+        <Link href="#BobPerry">
           <h3>Bob Perry Trucker&nbsp;Trainer&trade; Consulting</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, itaque?</p>
-        </a>
+        </Link>
         <a href="https://Galileo.io" target={ '_blank' } rel='noreferrer'>
           <h3>Galileo.io</h3>
           <p>Galileo's dedicated team of doctors and nurse practitioners is on call 24/7 to deliver full-spectrum medical care.</p>
