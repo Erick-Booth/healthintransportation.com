@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /thanks
+Disallow: /404
+Disallow: /policy
+Disallow: /*.pdf
+
+Sitemap: sitemap.xml 
