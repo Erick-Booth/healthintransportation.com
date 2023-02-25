@@ -39,6 +39,9 @@
     }
 
     .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 4rem 2rem;
         max-width: 700px;
         z-index: 1;
@@ -64,15 +67,22 @@
 
     @media (min-width: 900px) {
         flex-direction: row;
+        height: 50vh;
 
         .image {
             height: auto;
-            max-width: 50%;
+            width: 50%;
             clip-path: polygon(0%0%, 90%0%, 100%100%, 0%100%);
         }
 
         .text {
             padding: 10vh 2rem;
+            width: 50%;
+
+            .believe {
+                font-size: clamp(50px, 10vw, 70px);
+                line-height: 1;
+            }
         }
     }
 }
@@ -137,26 +147,38 @@
     @media (min-width: 1000px) {
         position: relative;
         flex-direction: row;
+        height: 50vh;
+        min-height: 450px;
 
         .textWrap {
             width: 50%;
-            filter: drop-shadow(15px 20px 0 globals.$HIT-Red);
+            filter: drop-shadow(1.5vw 1.6vw 0 globals.$HIT-Red);
             overflow: hidden;
 
             .text {
+                display: flex;
+                align-items: center;
                 clip-path: polygon(0%0%, 100%0%, calc(100% - 50px)50%, calc(100% - 100px)50%, calc(100% - 150px)100%, 0%100%);
                 padding-right: 140px;
 
                 h2 {
                     padding-bottom: 2rem;
+                    font-size: clamp(40px, 5vw, 62px);
+
                 }
             }
         }
 
         .serviceList {
             width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             li {
+                font-size: clamp(30px, 2vw, 40px);
+                margin: 1.5vh 0;
+
                 &:nth-child(1) {
                     margin-left: 100px;
                 }
@@ -182,13 +204,14 @@
     flex-direction: column;
 
     a {
-        display: flex;
         position: relative;
+        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         text-align: center;
         width: 100%;
-        min-height: 250px;
+        height: 30vh;
         padding: 3rem;
         background-size: cover;
         background-position: center;
@@ -206,10 +229,12 @@
         }
 
         h3 {
-            font-size: 40px;
+            font-size: clamp(30px, 6vw, 60px);
+            max-width: 600px;
             text-transform: uppercase;
             text-align: center;
             text-shadow: 0 0 .8rem rgba(0, 0, 0, 0.4);
+            transition: .2s;
 
             &::after {
                 content: '';
@@ -220,7 +245,8 @@
         }
 
         p {
-            max-width: 450px;
+            width: min(100%, 400px);
+            font-size: clamp(20px, 1vw, 26px);
         }
 
         &:nth-child(1) {
@@ -252,18 +278,31 @@
         &:hover {
             background-position: top;
 
+            h3 {
+                translate: 0 -10%;
+            }
+
             &::after {
                 width: 100%;
             }
         }
     }
 
-    @media (min-width: 1000px) {
+    @media (min-width: 1200px) {
         flex-direction: row;
 
         a {
-            justify-content: center;
-            min-height: 30vh;
+            height: clamp(400px, 50vh, 500px);
+
+            h3 {
+                font-size: clamp(30px, 3vw, 60px);
+            }
+
+            p {
+                width: 100%;
+                max-width: 400px;
+                font-size: clamp(20px, 1vw, 26px);
+            }
 
             &:nth-child(1) {
                 background-image: linear-gradient(to bottom, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.png');
@@ -317,7 +356,7 @@
 
     @media(min-width:1000px) {
         display: flex;
-        padding: 8vh 0;
+        padding: max(3rem, 12vh) 0;
 
         img {
             height: fit-content;
