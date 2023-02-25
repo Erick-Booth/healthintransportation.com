@@ -1,0 +1,603 @@
+@use './globals';
+
+.Landing {
+    display: flex;
+    align-items: center;
+    height: clamp(500px, 80vh, 800px);
+    background: linear-gradient(to bottom right, #1A1313, #812a2ac5), url('/images/stock/truck-lot.jpg');
+    background: linear-gradient(to bottom right, #1A1313, #812a2ac5), url('/images/stock/truck-lot.webp');
+    background-size: cover;
+    background-position: right;
+
+    h1 {
+        font-size: clamp(40px, 7vw, 60px);
+        max-width: 1200px;
+    }
+
+    h2 {
+        font-size: clamp(20px, 4vw, 24px);
+        opacity: .8;
+    }
+
+    a {
+        margin-top: 2rem;
+        @include globals.CTA;
+    }
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .image {
+        background: url('/images/stock/placeholder.jpeg');
+        background-size: cover;
+        background-position: top right;
+        height: min(350px, 50vh);
+        width: 100%;
+    }
+
+    .text {
+        padding: 4rem 2rem;
+        max-width: 700px;
+        z-index: 1;
+
+        h2 {
+            @include globals.coloredText;
+            font-size: clamp(40px, 10vw, 50px);
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 1rem;
+
+            span {
+                @include globals.coloredText;
+                font-weight: 700;
+            }
+        }
+    }
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+
+        .image {
+            height: auto;
+            max-width: 50%;
+            clip-path: polygon(0%0%, 90%0%, 100%100%, 0%100%);
+        }
+
+        .text {
+            padding: 10vh 2rem;
+        }
+    }
+}
+
+.Services {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #fefefe;
+
+    .textWrap {
+
+        .text {
+            background-color: globals.$Dim;
+            padding: 3rem 1rem;
+            position: relative;
+            width: 100%;
+            height: 85%;
+
+            h2 {
+                font-size: clamp(40px, 10vw, 50px);
+                max-width: 530px;
+                margin: 0 auto;
+
+                span {
+                    @include globals.coloredText;
+                    font-weight: 700;
+                }
+            }
+
+        }
+    }
+
+    .serviceList {
+        list-style: none;
+        padding: 3rem 2rem;
+        color: globals.$Dim;
+        margin: 0 auto;
+
+        li {
+            display: flex;
+            align-items: center;
+            font-size: clamp(18px, 5vw, 24px);
+            line-height: 1;
+            margin-bottom: 1rem;
+
+            iconify-icon {
+                margin-right: .5rem;
+                font-size: clamp(30px, 9vw, 50px);
+            }
+
+            &:nth-child(even) {
+                @include globals.coloredText;
+                filter: unset;
+
+                iconify-icon {
+                    color: globals.$HIT-Red-Dark;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1000px) {
+        position: relative;
+        flex-direction: row;
+
+        .textWrap {
+            width: 50%;
+            filter: drop-shadow(15px 20px 0 globals.$HIT-Red);
+            overflow: hidden;
+
+            .text {
+                clip-path: polygon(0%0%, 100%0%, calc(100% - 50px)50%, calc(100% - 100px)50%, calc(100% - 150px)100%, 0%100%);
+                padding-right: 140px;
+
+                h2 {
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+
+        .serviceList {
+            width: 50%;
+
+            li {
+                &:nth-child(1) {
+                    margin-left: 100px;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 80px;
+                }
+
+                &:nth-child(3) {
+                    margin-left: 60px;
+                }
+
+                &:nth-child(4) {
+                    margin-left: 40px;
+                }
+            }
+        }
+    }
+}
+
+.Grid {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        min-height: 250px;
+        padding: 3rem;
+        background-size: cover;
+        background-position: center;
+        transition: .2s;
+
+        &::after {
+            //Hover line
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            transition: .4s;
+        }
+
+        h3 {
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: 0 0 .8rem rgba(0, 0, 0, 0.4);
+
+            &::after {
+                content: '';
+                @include globals.separator;
+                margin: 1rem auto;
+                filter: drop-shadow(0 0 6px rgba(0, 0, 0, 1));
+            }
+        }
+
+        &:nth-child(1) {
+            background-image: linear-gradient(to left, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.png');
+
+            &::after {
+                background-color: rgb(255, 56, 56);
+            }
+        }
+
+        &:nth-child(2) {
+            background-image: linear-gradient(to left, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/stock/trucks.jpg');
+
+            &::after {
+                background-color: yellow;
+            }
+        }
+
+        &:nth-child(3) {
+            background-image: linear-gradient(to left, rgba(60, 190, 77, 0.6), rgba(4, 27, 5, 0.85)), url('/images/stock/trucks.jpg');
+
+            &::after {
+                background-color: rgb(67, 255, 98);
+            }
+        }
+
+
+
+        &:hover {
+            background-position: top;
+
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (min-width: 1000px) {
+        flex-direction: row;
+
+        a {
+            justify-content: center;
+            min-height: 30vh;
+
+            &:nth-child(1) {
+                background-image: linear-gradient(to bottom, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.png');
+            }
+
+            &:nth-child(2) {
+                background-image: linear-gradient(to bottom, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/stock/trucks.jpg');
+            }
+
+            &:nth-child(3) {
+                background-image: linear-gradient(to bottom, rgba(60, 190, 77, 0.6), rgba(4, 27, 5, 0.85)), url('/images/stock/trucks.jpg');
+            }
+        }
+    }
+}
+
+.Bob {
+    padding: 3rem 0;
+
+    img {
+        display: block;
+        max-width: 250px;
+        clip-path: polygon(0%0%, 80%0%, 100%20%, 100%100%, 20%100%, 0%80%);
+        filter: grayscale(100%);
+        margin: 1rem auto;
+    }
+
+    .text {
+        margin: 0 auto;
+        padding: 0 1rem;
+        max-width: 700px;
+
+
+        h1 {
+            font-size: clamp(40px, 10vw, 50px);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 20px;
+
+            span {
+                @include globals.coloredText;
+            }
+        }
+    }
+
+    @media(min-width:1000px) {
+        display: flex;
+        padding: 8vh 0;
+
+        img {
+            height: fit-content;
+            margin: auto 0 auto auto;
+        }
+
+        .text {
+            margin: 0 auto 0 0;
+        }
+    }
+}
+
+.HealthScanner {
+    background: linear-gradient(to bottom, #101010, #1D1327 40%, #631945 55%, #E4734F 80%, #CA2F25 90%);
+    overflow-x: hidden;
+
+    .topContent {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+        img {
+            width: 40vw;
+            height: fit-content;
+            margin: 0 auto;
+        }
+
+        .patents {
+            $font: 14px;
+            display: flex;
+            align-items: center;
+            background-color: #5eea5c8c;
+            color: #C2F2C7;
+            padding: 6px .5rem;
+            border-radius: 99px;
+            width: fit-content;
+            font-size: $font;
+            margin-bottom: 1rem;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                height: $font;
+                width: $font;
+                background-color: #C2F2C7;
+                border-radius: 100%;
+                margin-right: .4rem;
+            }
+        }
+
+        .textContent {
+            margin: 2rem 1rem;
+
+            h1 {
+                font-size: clamp(40px, 10vw, 50px);
+                font-weight: 800;
+
+                span {
+                    @include globals.coloredText;
+                    font-weight: 800;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 3rem;
+                max-width: 630px;
+            }
+        }
+
+        @media(min-width:600px) {
+            flex-direction: row;
+            padding-top: 6rem;
+
+            img {
+                width: 180px;
+                margin: 0;
+            }
+        }
+    }
+
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 8rem;
+        padding: 0 1rem;
+
+        .feature {
+            @include globals.flexCenter;
+            flex-direction: column;
+            text-align: center;
+            height: 100%;
+            padding: 1rem;
+            min-height: 250px;
+            max-width: 350px;
+            background-color: globals.$Iron;
+            color: globals.$Dim;
+            border-radius: 1rem;
+
+            iconify-icon {
+                font-size: 80px;
+                color: globals.$HIT-Red;
+            }
+
+            h2 {
+                font-size: 36px;
+                font-weight: 800;
+                letter-spacing: -1px;
+            }
+
+            p {
+                a {
+                    @include globals.coloredText;
+                    filter: none;
+                }
+            }
+        }
+    }
+
+    .drivingBus {
+        display: none;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .city {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100vh;
+            background: url('/images/svg/new-york.svg');
+            background-repeat: repeat-x;
+            background-size: contain;
+            background-position-x: 0%;
+            background-position-y: bottom;
+            animation: scroll 30s linear forwards infinite;
+            margin-left: -2 px;
+            filter: drop-shadow(2px 2px 0 black);
+
+            @keyframes scroll {
+                from {
+                    background-position-x: 0%;
+                }
+
+                to {
+                    background-position-x: -100vw;
+                }
+            }
+        }
+
+        .BusSVG {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: visible;
+            padding: 0 1rem;
+            translate: 10% 0;
+
+            .busGroup {
+
+                .backRim,
+                .frontRim {
+                    transform-box: fill-box;
+                    transform-origin: center;
+                }
+
+                .shell {
+                    transform-box: fill-box;
+                    transform-origin: center;
+                }
+
+                @keyframes bounce {
+                    0% {
+                        translate: 0 0%;
+                    }
+
+                    10% {
+                        translate: 0 -0.7%;
+                    }
+
+                    30% {
+                        translate: 0 0.5%;
+                    }
+
+                    40% {
+                        translate: 0 0;
+                    }
+
+                    50% {
+                        translate: 0 0.4%;
+                    }
+
+                    60% {
+                        translate: 0 0;
+                    }
+
+                    70% {
+                        translate: 0 -0.4%;
+                    }
+
+                    90% {
+                        translate: 0 0;
+                    }
+                }
+
+                @keyframes spin {
+                    from {
+                        rotate: 0deg;
+                    }
+
+                    to {
+                        rotate: 360deg;
+                    }
+                }
+
+                @keyframes drive {
+                    0% {
+                        translate: -1%;
+                    }
+
+                    100% {
+                        translate: 1%;
+                    }
+                }
+            }
+
+            &[data-animate=true] {
+                .busGroup {
+                    animation: drive 5s infinite ease-in-out alternate;
+
+                    .backRim,
+                    .frontRim {
+                        animation: spin .4s forwards infinite linear;
+
+                    }
+
+                    .shell {
+                        animation: bounce 3s forwards infinite ease-in-out;
+                    }
+                }
+            }
+
+        }
+
+        @media(min-width: 1200px) {
+            .city {
+                filter: drop-shadow(4px 4px 0 black);
+            }
+        }
+    }
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+
+
+    h1 {
+        font-size: clamp(40px, 10vw, 50px);
+    }
+
+    h2 {
+        font-size: clamp(20px, 5vw, 28px);
+        margin-bottom: 1rem
+    }
+
+    .phone {
+        @include globals.coloredText;
+        font-size: 24px;
+
+        iconify-icon {
+            color: globals.$HIT-Red;
+        }
+    }
+}
+
+// Desktop
+@media screen and (min-width: globals.$mobileBreakPoint) {
+    .About {
+        img {
+            clip-path: polygon(0%0%, 90%0%, 100%100%, 0%100%);
+        }
+    }
+}

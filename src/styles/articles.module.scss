@@ -1,0 +1,22 @@
+.policy {
+    width: min(800px, 100%);
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+
+    a {
+        color: salmon;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    ul li {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+}

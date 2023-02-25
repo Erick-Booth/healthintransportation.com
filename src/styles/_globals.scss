@@ -1,0 +1,57 @@
+// Colors
+$HIT-Red: #F83843;
+$HIT-Red-Dark: #96343A;
+$Iron: #fefefe;
+$Dim: rgb(20, 20, 20);
+
+// Variables
+$mobileBreakPoint: 600px;
+
+// Mixins
+@mixin coloredText {
+    color: transparent;
+    background: linear-gradient(to bottom, $HIT-Red, $HIT-Red-Dark);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, .8)) brightness(115%);
+    font-weight: 600;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin CTA {
+    display: inline-block;
+    background: linear-gradient(to right, $HIT-Red-Dark, $HIT-Red, $HIT-Red-Dark);
+    background-size: 200% 200%;
+    background-position: right;
+    color: $Iron;
+    padding: 9px 34px;
+    border-radius: 99px;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+    transition: all .3s, background 1s;
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover {
+        scale: 1.05;
+        background-position: left;
+    }
+}
+
+@mixin separator {
+    display: block;
+    margin: 1rem 0;
+    background: linear-gradient(to right, $HIT-Red, $HIT-Red-Dark);
+    height: 4px;
+    width: 70px;
+}
+
+@mixin DiamondPlate {
+    background: url('/images/svg/Diamond-Plate.svg');
+    background-attachment: fixed;
+}

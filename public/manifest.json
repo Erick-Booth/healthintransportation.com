@@ -1,0 +1,64 @@
+{
+    "name": "Health In Transportation",
+    "short_name": "HIT",
+    "lang": "English",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F83843",
+    "theme_color": "#F83843",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "images/manifest/HIT T-72x.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "images/manifest/HIT T-96x.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/manifest/HIT T-128x.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/manifest/HIT T-144x.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/manifest/HIT T-152x.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "images/manifest/HIT T-192x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/manifest/HIT T-192x.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/manifest/HIT T-384x.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "images/manifest/HIT T-512x.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "images/manifest/HIT T-512x.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+@use './globals';
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative; //THIS IS WHAT FIXES HORIZONTAL SCROLL ON MOBILE
+    min-height: 100svh;
+    width: 100%;
+    font-family: "Oxanium", 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: globals.$Iron;
+    scroll-behavior: smooth;
+    scrollbar-color: globals.$HIT-Red transparent;
+    scrollbar-width: 10px;
+
+    #__next {
+        min-height: 100vh;
+    }
+}
+
+
+html {
+    background-color: globals.$Dim;
+}
+
+body {
+    @include globals.DiamondPlate;
+    overflow-x: hidden;
+}
+
+section {
+    scroll-padding-top: 15vh;
+    scroll-margin-top: 15vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: globals.$Iron;
+}
+
+input,
+select,
+textarea {
+    all: unset;
+    box-shadow: .25rem .25rem 4px rgba(0, 0, 0, .2);
+}
+
+button.CTA {
+    all: unset;
+    @include globals.CTA;
+}
+
+.CTA {
+    @include globals.CTA;
+}
+
+header {
+
+    #Top-Header {
+        height: 20px;
+        background: linear-gradient(to right, globals.$HIT-Red, globals.$HIT-Red-Dark);
+    }
+
+    #Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 68px;
+        padding: 2px 10%;
+        background-color: black;
+        z-index: 900;
+
+        a,
+        a img {
+            height: 100%;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+
+            iconify-icon {
+                font-size: 40px;
+            }
+
+            a {
+                &.phone {
+                    display: none;
+                    padding: .5rem 1rem;
+                    border: 1px solid globals.$Iron;
+                    font-size: 20px;
+                    margin-left: 1rem;
+                }
+
+                &.mobile-phone iconify-icon {
+                    margin-left: .5rem;
+                    font-size: 30px;
+                }
+            }
+
+        }
+
+    }
+
+    @media print {
+        display: none;
+    }
+}
+
+#BackToTop {
+    all: unset;
+    @include globals.flexCenter();
+    position: fixed;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    margin: max(1rem, 3vw);
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    background-color: globals.$HIT-Red;
+    z-index: 901;
+    opacity: .7;
+    transition: .2s;
+    visibility: hidden;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &.show {
+        visibility: visible;
+    }
+}
+
+footer#Footer {
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 1rem 0;
+    text-align: center;
+
+    img {
+        margin-right: auto;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 14px;
+
+        p,
+        a {
+            opacity: .6;
+        }
+
+        p {
+            margin: 2rem 0;
+        }
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 0 1rem;
+            padding: 4px;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    @media print {
+        display: none;
+    }
+}
+
+
+.separator {
+    @include globals.separator;
+}
+
+.contactPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+#ContactForm {
+    display: flex;
+    flex-direction: column;
+    width: min(500px, 100%);
+    margin: 1rem 0;
+
+    input,
+    textarea {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid #fefefe;
+    }
+
+    textarea {
+        white-space: pre-wrap;
+    }
+
+    label {
+        opacity: .5;
+        margin-bottom: .5rem;
+    }
+
+    button {
+        text-align: center;
+
+        &[disabled] {
+            opacity: .4;
+            user-select: none;
+        }
+    }
+}
+
+// #Region ===Utility Classes===
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: globals.$HIT-Red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(201, 223, 255, 0.1);
+}
+
+::-webkit-scrollbar-button {
+    height: 5px;
+}
+
+.decorative-line {
+    display: block;
+    height: 4px;
+    width: min(8rem, 50vw);
+    background-color: globals.$HIT-Red;
+    border-radius: 9px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+.flex {
+    display: flex;
+
+    &.center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    &.column {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: globals.$mobileBreakPoint) {
+    header #Header nav a {
+        &.phone {
+            display: block;
+        }
+
+        &.mobile-phone {
+            display: none;
+        }
+    }
+}
