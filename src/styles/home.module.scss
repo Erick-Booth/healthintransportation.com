@@ -219,6 +219,10 @@
             }
         }
 
+        p {
+            max-width: 450px;
+        }
+
         &:nth-child(1) {
             background-image: linear-gradient(to left, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.png');
 

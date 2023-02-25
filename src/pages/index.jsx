@@ -53,10 +53,10 @@ export default function Home(props) {
       <section id='Grid' className={ styles.Grid }>
         <a href="" target={ '_blank' } rel='noreferrer'>
           <h3>CDL Health Scanner</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, itaque?</p>
+          <p>An online web-application that quickly & accurately measures a driver’s blood pressure, body mass index (BMI), heart rate, and respiration.</p>
         </a>
         <a href="#BobPerry" target={ '_blank' } rel='noreferrer'>
-          <h3>Bob Perry Trucker&nbsp;Trainer Consulting</h3>
+          <h3>Bob Perry Trucker&nbsp;Trainer&trade; Consulting</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, itaque?</p>
         </a>
         <a href="https://Galileo.io" target={ '_blank' } rel='noreferrer'>
