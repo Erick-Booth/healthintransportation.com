@@ -19,7 +19,7 @@ export default function Home(props) {
       <section id="About" className={ styles.About }>
         <div className={ styles.image } />
         <div className={ styles.text }>
-          <h2>Believe Us,</h2>
+          <p className={ styles.believe }>Believe Us,</p>
           <p>we know that staying healthy can be a struggle for a professional driver.</p>
           <p>That’s why we aim to provide exceptional health program referrals & services that are <span>tailored to you and your fleet</span>.</p>
         </div>
@@ -68,8 +68,8 @@ export default function Home(props) {
       <section id='BobPerry' className={ styles.Bob }>
         <img src="/images/HIT/Bob.jpg" alt="" title='Bob Perry' />
         <div className={ styles.text }>
-          <h1>Bob Perry</h1>
-          <h2>President & Founder</h2>
+          <h3>Bob Perry</h3>
+          <h4>President & Founder</h4>
           <span className='separator' />
           <p>Bringing more than <span>25 Years</span> of Wellness Expertise to the Driver’s Community, Bob comes from a family of career drivers from Northeast Ohio, who have been in the industry for the past 4 decades.</p>
           <p>Having devoted his career to the health & fitness of professional drivers, Bob is recognized all over the country as the <span>Trucker Trainer&trade;</span>.</p>
@@ -82,7 +82,7 @@ export default function Home(props) {
           <img src="/images/HIT/phone-app.png" alt="" title='Health Scanner' />
           <div className={ styles.textContent }>
             <div className={ styles.patents }>11 US Patents</div>
-            <h1>The CDL <span>Health&nbsp;Scanner</span></h1>
+            <h3>The CDL <span>Health&nbsp;Scanner</span></h3>
             <p>An online web-application that quickly & accurately measures a driver’s blood pressure, body mass index (BMI), heart rate, and respiration.</p>
             <a href="https://healthscanner.app" className='CTA'>Learn More</a>
           </div>
@@ -91,17 +91,17 @@ export default function Home(props) {
         <div className={ styles.features }>
           <div className={ styles.feature }>
             <iconify-icon icon="material-symbols:health-and-safety-outline"></iconify-icon>
-            <h2>Personalized Health Data</h2>
+            <h4>Personalized Health Data</h4>
             <p>Recieve personalized metrics including BMI, blood pressure, heart rate, and respiration</p>
           </div>
           <div className={ styles.feature }>
             <iconify-icon icon="ic:baseline-file-download-off"></iconify-icon>
-            <h2>No Download Required</h2>
+            <h4>No Download Required</h4>
             <p>The application is accessed through the URL <a href="https://healthscanner.app">healthscanner.app</a></p>
           </div>
           <div className={ styles.feature }>
             <iconify-icon icon="mdi:clipboard-text-search-outline"></iconify-icon>
-            <h2>Instant Results</h2>
+            <h4>Instant Results</h4>
             <p>Complete the screening in about 2 minutes, and receive your metrics instantly</p>
           </div>
         </div>
@@ -113,8 +113,8 @@ export default function Home(props) {
       </section>
 
       <section id='Contact' className={ styles.Contact }>
-        <h1>Get in touch!</h1>
-        <h2>We'd love to hear from you.</h2>
+        <h3>Get in touch!</h3>
+        <h4>We'd love to hear from you.</h4>
         <a className={ styles.phone } href="tel:+6026922734"><iconify-icon inline icon="material-symbols:phone-in-talk"></iconify-icon> (602) 692-2734</a>
         <ContactForm />
       </section>

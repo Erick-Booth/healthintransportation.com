@@ -43,7 +43,7 @@
         max-width: 700px;
         z-index: 1;
 
-        h2 {
+        .believe {
             @include globals.coloredText;
             font-size: clamp(40px, 10vw, 50px);
             font-weight: 700;
@@ -297,8 +297,12 @@
         max-width: 700px;
 
 
-        h1 {
+        h3 {
             font-size: clamp(40px, 10vw, 50px);
+        }
+
+        h4 {
+            font-size: clamp(20px, 10vw, 28px);
         }
 
         p {
@@ -369,7 +373,7 @@
         .textContent {
             margin: 2rem 1rem;
 
-            h1 {
+            h3 {
                 font-size: clamp(40px, 10vw, 50px);
                 font-weight: 800;
 
@@ -424,7 +428,7 @@
                 color: globals.$HIT-Red;
             }
 
-            h2 {
+            h4 {
                 font-size: 36px;
                 font-weight: 800;
                 letter-spacing: -1px;
@@ -578,11 +582,11 @@
     padding: 4rem 1rem;
 
 
-    h1 {
+    h3 {
         font-size: clamp(40px, 10vw, 50px);
     }
 
-    h2 {
+    h4 {
         font-size: clamp(20px, 5vw, 28px);
         margin-bottom: 1rem
     }
