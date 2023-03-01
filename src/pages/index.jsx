@@ -12,7 +12,7 @@ export default function Home(props) {
         <div className="container">
           <h1>Protecting Drivers' Livelihoods Through Better Health&nbsp;Choices</h1>
           <h2>We provide health & medical services to fleets & CDL drivers</h2>
-          <Link href={ '/contact' }>Contact Us <iconify-icon inline icon="material-symbols:chat-outline-sharp"></iconify-icon></Link>
+          <Link title='Contact Us' href={ '/contact' }>Contact Us <iconify-icon inline icon="material-symbols:chat-outline-sharp"></iconify-icon></Link>
         </div>
       </section>
 
@@ -51,13 +51,13 @@ export default function Home(props) {
       </section>
 
       <section id='Grid' className={ styles.Grid }>
-        <a href="" target={ '_blank' } rel='noreferrer'>
+        <a href="https://www.cdlhealthscanner.com" target={ '_blank' } rel='noreferrer'>
           <h3>CDL Health Scanner</h3>
           <p>An online web-application that quickly & accurately measures a driver’s blood pressure, body mass index (BMI), heart rate, and respiration.</p>
         </a>
         <Link href="#BobPerry">
           <h3>Bob Perry Trucker&nbsp;Trainer&trade; Consulting</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, itaque?</p>
+          <p>(This description will be updated.)</p>
         </Link>
         <a href="https://Galileo.io" target={ '_blank' } rel='noreferrer'>
           <h3>Galileo.io</h3>
@@ -92,12 +92,12 @@ export default function Home(props) {
           <div className={ styles.feature }>
             <iconify-icon icon="material-symbols:health-and-safety-outline"></iconify-icon>
             <h4>Personalized Health Data</h4>
-            <p>Recieve personalized metrics including BMI, blood pressure, heart rate, and respiration</p>
+            <p>Receive personalized metrics including BMI, blood pressure, heart rate, and respiration</p>
           </div>
           <div className={ styles.feature }>
             <iconify-icon icon="ic:baseline-file-download-off"></iconify-icon>
             <h4>No Download Required</h4>
-            <p>The application is accessed through the URL <a href="https://healthscanner.app">healthscanner.app</a></p>
+            <p>The application is accessed through the URL <a title="Learn more about the CDL Healthscanner" href="https://healthscanner.app">healthscanner.app</a></p>
           </div>
           <div className={ styles.feature }>
             <iconify-icon icon="mdi:clipboard-text-search-outline"></iconify-icon>
