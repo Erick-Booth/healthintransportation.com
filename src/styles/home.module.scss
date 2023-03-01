@@ -31,9 +31,9 @@
     position: relative;
 
     .image {
-        background: url('/images/stock/placeholder.jpeg');
+        background: url('/images/test.jpg');
         background-size: cover;
-        background-position: top right;
+        background-position: left;
         height: min(350px, 50vh);
         width: 100%;
     }
@@ -128,6 +128,7 @@
             line-height: 1;
             margin-bottom: 1rem;
             font-weight: 500;
+            color: #282828;
 
             iconify-icon {
                 margin-right: .5rem;
@@ -139,7 +140,7 @@
                 filter: unset;
 
                 iconify-icon {
-                    color: globals.$HIT-Red-Dark;
+                    color: globals.$HIT-Red;
                 }
             }
         }
@@ -158,6 +159,7 @@
 
             .text {
                 display: flex;
+                position: relative;
                 align-items: center;
                 clip-path: polygon(0%0%, 100%0%, calc(100% - 50px)50%, calc(100% - 100px)50%, calc(100% - 150px)100%, 0%100%);
                 padding-right: 140px;
@@ -167,7 +169,21 @@
                     font-size: clamp(40px, 5vw, 62px);
 
                 }
+
+                &::before {
+                    content: '';
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;
+                    background-color: red;
+                    clip-path: polygon(0%0%, 100%0%, calc(100% - 50px)50%, calc(100% - 100px)50%, calc(100% - 150px)100%, 0%100%);
+                    translate: 10% 0;
+                }
             }
+
+
         }
 
         .serviceList {
@@ -179,6 +195,10 @@
             li {
                 font-size: clamp(30px, 2vw, 40px);
                 margin: 1.5vh 0;
+
+                iconify-icon {
+                    font-size: clamp(50px, 4vw, 65px);
+                }
 
                 &:nth-child(1) {
                     margin-left: 100px;

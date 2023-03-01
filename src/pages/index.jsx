@@ -10,8 +10,8 @@ export default function Home(props) {
     <>
       <section id='Landing' className={ styles.Landing }>
         <div className="container">
-          <h1>Supporting Professional Drivers To Protect Their Livelihoods</h1>
-          <h2>Protecting Drivers' Livelihoods Through Better Health&nbsp;Choices</h2>
+          <h1>Protecting Drivers' Livelihoods Through Better Health&nbsp;Choices</h1>
+          <h2>We provide health & medical services to fleets & CDL drivers</h2>
           <Link href={ '/contact' }>Contact Us <iconify-icon inline icon="material-symbols:chat-outline-sharp"></iconify-icon></Link>
         </div>
       </section>
