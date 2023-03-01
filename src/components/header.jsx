@@ -10,8 +10,8 @@ export default function Header(props) {
                     <Link href={ '/' }><img src="/images/HIT/logo.png" alt="Health In Transportation" /></Link>
                     <nav>
                         <iconify-icon inline icon="openmoji:flag-united-states" title='United States' />
-                        <a className='phone' href="tel:+1602-692-2734">(602) 692-2734</a>
-                        <a className='mobile-phone' href="tel:+6026922734"><iconify-icon inline icon="material-symbols:phone-in-talk"></iconify-icon></a>
+                        <a title='Call Us!' className='phone' href="tel:+1602-692-2734">(602) 692-2734</a>
+                        <a title='Call Us!' className='mobile-phone' href="tel:+6026922734"><iconify-icon inline icon="material-symbols:phone-in-talk"></iconify-icon></a>
                     </nav>
                 </div>
             </header>
