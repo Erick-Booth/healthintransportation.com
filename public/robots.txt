@@ -4,4 +4,4 @@ Disallow: /404
 Disallow: /policy
 Disallow: /*.pdf
 
-Sitemap: sitemap.xml 
+Sitemap: https://www.healthintransportation.com/sitemap.xml 
