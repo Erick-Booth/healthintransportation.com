@@ -281,7 +281,8 @@
         }
 
         &:nth-child(2) {
-            background-image: linear-gradient(to left, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/stock/trucks.jpg');
+            background-image: linear-gradient(to left, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/HIT/Bob-Michelin.jpg');
+            background-position: top right;
 
             &::after {
                 background-color: yellow;
@@ -318,6 +319,7 @@
         a {
             // min-height: clamp(400px, 50vh, 500px);
             height: unset;
+            padding: 3rem;
 
             h3 {
                 font-size: clamp(30px, 3vw, 60px);
@@ -334,7 +336,8 @@
             }
 
             &:nth-child(2) {
-                background-image: linear-gradient(to bottom, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/stock/trucks.jpg');
+                background-image: linear-gradient(to bottom, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/HIT/Bob-Michelin.jpg');
+                background-position: top right;
             }
 
             &:nth-child(3) {
