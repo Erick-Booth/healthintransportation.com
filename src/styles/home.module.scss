@@ -3,15 +3,17 @@
 .Landing {
     display: flex;
     align-items: center;
-    height: clamp(500px, 80vh, 800px);
+    min-height: clamp(500px, 80vh, 800px);
     background: linear-gradient(to bottom right, #1A1313, #812a2ac5), url('/images/stock/truck-lot.jpg');
     background: linear-gradient(to bottom right, #1A1313, #812a2ac5), url('/images/stock/truck-lot.webp');
     background-size: cover;
     background-position: right;
+    padding: 1rem 0;
 
     h1 {
         font-size: clamp(40px, 7vw, 60px);
         max-width: 1200px;
+        margin-bottom: 1rem;
     }
 
     h2 {
