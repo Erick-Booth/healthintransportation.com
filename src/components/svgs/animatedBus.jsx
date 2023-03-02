@@ -1,14 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from '../../styles/home.module.scss';
 
 export default function AnimatedBus(props) {
-    const [busOffset, setbusOffset] = useState(0);
-    const [windowHeight, setwindowHeight] = useState(0);
-
-    useEffect(() => {
-        setbusOffset(document.getElementById('BusSVG').getBoundingClientRect().top);
-        setwindowHeight(window.innerHeight);
-    }, []);
 
     return (
         <svg
@@ -18,7 +11,6 @@ export default function AnimatedBus(props) {
             viewBox="0 0 1446 320"
             id='BusSVG'
             className={ styles.BusSVG }
-            data-animate={ (props.pageOffset + windowHeight) >= busOffset }
         >
             <g id="BusGroup" className={ styles.busGroup }>
                 <path id="Black-Bar" fill="#171717" d="M198 195H871V277H198z"></path>
