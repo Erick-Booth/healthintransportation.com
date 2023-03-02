@@ -84,7 +84,7 @@ export default function Home(props) {
             <div className={ styles.patents }>11 US Patents</div>
             <h3>The CDL <span>Health&nbsp;Scanner</span></h3>
             <p>An online web-application that quickly & accurately measures a driver’s blood pressure, body mass index (BMI), heart rate, and respiration.</p>
-            <a href="https://cdlhealthscanner.com" className='CTA' target={ '_blank' } rel="external">Learn More</a>
+            <a href="https://cdlhealthscanner.com" className='CTA' target={ '_blank' } rel="noreferrer">Learn More</a>
           </div>
         </div>
 
