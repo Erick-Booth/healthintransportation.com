@@ -92,17 +92,17 @@ export default function Home(props) {
           <div className={ styles.feature }>
             <iconify-icon icon="material-symbols:health-and-safety-outline"></iconify-icon>
             <h4>Personalized Health Data</h4>
-            <p>Receive personalized metrics including BMI, blood pressure, heart rate, and respiration</p>
+            <p>Receive personalized metrics including BMI, blood pressure, heart rate, and respiration.</p>
           </div>
           <div className={ styles.feature }>
             <iconify-icon icon="ic:baseline-file-download-off"></iconify-icon>
             <h4>No Download Required</h4>
-            <p>The application is accessed through the URL <a title="Learn more about the CDL Healthscanner" href="https://healthscanner.app">healthscanner.app</a></p>
+            <p>The application is accessed through a URL.</p>
           </div>
           <div className={ styles.feature }>
             <iconify-icon icon="mdi:clipboard-text-search-outline"></iconify-icon>
             <h4>Instant Results</h4>
-            <p>Complete the screening in about 2 minutes, and receive your metrics instantly</p>
+            <p>Complete the screening in about 2 minutes, and receive your metrics instantly.</p>
           </div>
         </div>
 
