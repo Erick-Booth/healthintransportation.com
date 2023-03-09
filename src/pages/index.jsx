@@ -33,19 +33,16 @@ export default function Home(props) {
         </div>
         <ul className={ styles.serviceList }>
           <li>
-            <iconify-icon inline icon="fluent:food-apple-24-filled"></iconify-icon> CDL Orientation Lunches
+            <iconify-icon inline icon="fluent-mdl2:health-solid"></iconify-icon> CDL Health Scanner
+          </li>
+          <li>
+            <iconify-icon inline icon="ic:sharp-card-giftcard"></iconify-icon> Reward your drivers with a FIT Driver VISA Rewards Card
+          </li>
+          <li>
+            <iconify-icon inline icon="mdi:teacher"></iconify-icon> Telephonic & Onsite CDL Health&nbsp;Coaching
           </li>
           <li>
             <iconify-icon inline icon="ri:health-book-fill"></iconify-icon> Disease Management Programs
-          </li>
-          <li>
-            <iconify-icon inline icon="mdi:teacher"></iconify-icon> Telephonic & Onsite Health&nbsp;Coaching
-          </li>
-          <li>
-            <iconify-icon inline icon="mdi:id-card-outline"></iconify-icon> Fit Drivers, Get Your Drivers Fit&nbsp;to&nbsp;Pass
-          </li>
-          <li>
-            <iconify-icon inline icon="fluent-mdl2:health-solid"></iconify-icon> Self-administered Health&nbsp;Check&nbsp;Stations
           </li>
         </ul>
       </section>
