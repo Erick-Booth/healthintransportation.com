@@ -49,7 +49,7 @@ export default function ContactForm() {
     }
 
     return (
-        <form id='ContactForm' action="https://formsubmit.co/erick@erickbooth.com" name='Contact-Form' method='POST'>
+        <form id='ContactForm' action="https://formsubmit.co/Bob@healthintransportation.com" name='Contact-Form' method='POST'>
 
             <input id='form-name' type="text" name="name" maxLength={ 30 } minLength={ 2 } placeholder="Your name" value={ formData.name } onChange={ (e) => { setFormData({ ...formData, name: e.target.value }); } } onKeyUp={ (e) => checkForEnter(e) } />
 
@@ -65,8 +65,6 @@ export default function ContactForm() {
                 }
 
             </button>
-
-
 
             {/* Settings */ }
             <input type="text" name="_honey" style={ { display: 'none' } }></input>
