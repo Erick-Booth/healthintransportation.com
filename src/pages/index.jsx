@@ -61,7 +61,7 @@ export default function Home(props) {
         </Link>
         <a href="https://Galileo.io" target={ '_blank' } rel='noreferrer'>
           <h3>Galileo.io</h3>
-          <p>Galileo's dedicated team of doctors and nurse practitioners is on call 24/7 to deliver full-spectrum medical care.</p>
+          <p>Bringing the best doctors to you in your cab, at home, in your community, and on your mobile device.</p>
         </a>
       </section>
 
