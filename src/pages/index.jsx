@@ -54,7 +54,7 @@ export default function Home(props) {
         </a>
         <Link href="#BobPerry">
           <h3>Bob Perry Trucker&nbsp;Trainer&trade; Consulting</h3>
-          <p>(This description will be updated.)</p>
+          <p>Helping carriers help drivers make healthier choices & stay in the seat.</p>
         </Link>
         <a href="https://Galileo.io" target={ '_blank' } rel='noreferrer'>
           <h3>Galileo.io</h3>
