@@ -33,7 +33,7 @@
     position: relative;
 
     .image {
-        background: url('/images/stock/placeholder.jpg');
+        background: url('/images/stock/driver.webp'), url('/images/stock/driver.jpg');
         background-size: cover;
         background-position: left;
         height: min(350px, 50vh);
