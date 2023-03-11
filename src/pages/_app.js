@@ -39,8 +39,8 @@ function MyApp({ Component, pageProps }) {
       <meta name="author" content="Health In Transportation" />
       <meta name="keywords" content="Health Transportation trucking trucker trainer bob perry cdl scanner drivers" />
       <meta name="description" content="Health in Transportation offers an array of health and medical services to bus and truck fleets as well as professional Commercial Driver's License (CDL) holders across the US." />
-      <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F83843" />
-      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#F83843" />
+      <meta name="theme-color" media="(prefers-color-scheme: light)" content="#141414" />
+      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141414" />
       <meta name="color-scheme" content="light only" />
 
       <meta property="og:description" content="Health in Transportation offers an array of health and medical services to bus and truck fleets as well as professional Commercial Driver's License (CDL) holders across the US." />
