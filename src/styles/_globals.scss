@@ -29,13 +29,14 @@ $mobileBreakPoint: 600px;
     background-size: 200% 200%;
     background-position: right;
     color: $Iron;
-    padding: 9px 34px;
+    padding: 11px 34px;
     border-radius: 99px;
     font-weight: 500;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
     transition: all .3s, background 1s;
     cursor: pointer;
     white-space: nowrap;
+    line-height: 0;
 
     &:hover {
         scale: 1.05;

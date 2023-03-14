@@ -67,7 +67,8 @@ textarea {
     box-shadow: .25rem .25rem 4px rgba(0, 0, 0, .2);
 }
 
-button.CTA {
+button.CTA,
+a.CTA {
     all: unset;
     @include globals.CTA;
 }
