@@ -57,8 +57,8 @@ export default function Home(props) {
           <p>Helping carriers help drivers make healthier choices & stay in the seat.</p>
         </Link>
         <a href="https://Galileo.io" target={ '_blank' } rel='noreferrer'>
-          <h3>Galileo.io</h3>
-          <p>Bringing the best doctors to you in your cab, at home, in your community, and on your mobile device.</p>
+          <h3>Galileo Health</h3>
+          <p>Bringing the best doctors to you on your mobile device. Get care in your cab, at home, or anywhere you go.</p>
         </a>
       </section>
 
