@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../../public/images/HIT/logo.webp';
 
 export default function Header(props) {
     return (
@@ -7,7 +9,7 @@ export default function Header(props) {
             <header>
                 <div id='Top-Header'></div>
                 <div id="Header">
-                    <Link href={ '/' }><img src="/images/HIT/logo.png" alt="Health In Transportation" /></Link>
+                    <Link href={ '/' }><Image src={ Logo } alt="Health In Transportation" /></Link>
                     <nav>
                         <iconify-icon inline icon="openmoji:flag-united-states" title='United States' />
                         <a title='Call Us!' className='phone' href="tel:+16026922734">(602) 692-2734</a>

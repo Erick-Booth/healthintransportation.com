@@ -1,7 +1,9 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/home.module.scss';
 import Link from 'next/link';
+
+import Bob from '../../public/images/HIT/Bob.webp';
+import PhoneApp from '../../public/images/HIT/phone-app.webp';
 
 import AnimatedBus from '@/components/svgs/animatedBus';
 import ContactForm from '@/components/contactForm';
@@ -63,7 +65,7 @@ export default function Home(props) {
       </section>
 
       <section id='BobPerry' className={ styles.Bob }>
-        <img src="/images/HIT/Bob.jpg" alt="" title='Bob Perry' loading='lazy' />
+        <Image src={ Bob } alt="" title='Bob Perry' />
         <div className={ styles.text }>
           <h3>Bob Perry</h3>
           <h4>President & Founder</h4>
@@ -76,7 +78,7 @@ export default function Home(props) {
 
       <section id='HealthScanner' className={ styles.HealthScanner }>
         <div className={ styles.topContent }>
-          <img src="/images/HIT/phone-app.png" alt="" title='Health Scanner' loading='lazy' />
+          <Image src={ PhoneApp } alt="" title='Health Scanner' />
           <div className={ styles.textContent }>
             <div className={ styles.patents }>11 US Patents</div>
             <h3>The CDL <span>Health&nbsp;Scanner</span></h3>

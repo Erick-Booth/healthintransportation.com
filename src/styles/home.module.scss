@@ -34,6 +34,7 @@
 
     .image {
         background: url('/images/stock/driver.webp'), url('/images/stock/driver.jpg');
+        background: url('/images/stock/driver.webp'), url('/images/stock/driver.webp');
         background-size: cover;
         background-position: left;
         height: min(350px, 50vh);
@@ -273,7 +274,8 @@
         }
 
         &:nth-child(1) {
-            background-image: linear-gradient(to left, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.png');
+            background-image: linear-gradient(to left, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.jpg');
+            background-image: linear-gradient(to left, rgba(209, 42, 42, 0.6), rgba(63, 0, 0, 0.85)), url('/images/HIT/face-scan.webp');
 
             &::after {
                 background-color: rgb(255, 56, 56);
@@ -282,6 +284,7 @@
 
         &:nth-child(2) {
             background-image: linear-gradient(to left, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/HIT/Bob-Michelin.jpg');
+            background-image: linear-gradient(to left, rgba(221, 151, 21, 0.6), rgba(48, 33, 0, 0.85)), url('/images/HIT/Bob-Michelin.webp');
             background-position: top right;
 
             &::after {
@@ -291,13 +294,12 @@
 
         &:nth-child(3) {
             background-image: linear-gradient(to left, rgba(60, 190, 77, 0.6), rgba(4, 27, 5, 0.85)), url('/images/stock/trucks.jpg');
+            background-image: linear-gradient(to left, rgba(60, 190, 77, 0.6), rgba(4, 27, 5, 0.85)), url('/images/stock/trucks.webp');
 
             &::after {
                 background-color: rgb(67, 255, 98);
             }
         }
-
-
 
         &:hover {
             background-position: top;
@@ -353,6 +355,7 @@
     img {
         display: block;
         max-width: 250px;
+        height: auto;
         clip-path: polygon(0%0%, 80%0%, 100%20%, 100%100%, 20%100%, 0%80%);
         filter: grayscale(100%);
         margin: 1rem auto;
