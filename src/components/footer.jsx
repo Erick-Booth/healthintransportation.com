@@ -1,11 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../../public/images/HIT/logo.webp';
 
 export default function Footer() {
     return (
         <footer id='Footer'>
             <div className="container">
-                <img src="/images/HIT/logo.png" alt="Health In Transportation" />
+                <Image src={ Logo } alt="Health In Transportation" />
                 <div className='text'>
                     <p>Copyright { new Date().getFullYear() } Health In Transportation. All&nbsp;Rights&nbsp;Reserved.</p>
                     <div className='links'>
