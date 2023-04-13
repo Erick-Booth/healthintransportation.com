@@ -10,11 +10,11 @@ export default function Privacy() {
             <div id="Privacy Policy" className={ styles.policy }>
                 <Link href={ '/' }><img src='/images/HIT/logo.png' alt="Health In Transportation" /></Link>
                 <h1>PRIVACY POLICY</h1><br /><br />
-                <p>Revised 2/24/2023</p><br />
+                <p>Revised 4/13/2023</p><br />
                 Thank you for choosing to be part of our community at healthintransportation.com (“Brand”, “we”, “us”, or
                 “our”). We are committed to protecting your personal information and your right to privacy. If
                 you have any questions or concerns about our policy, or our practices with regards to your
-                personal information, please contact us at ebooth091@gmail.com.
+                personal information, please <a href="mailto:Bob@healthintransportation.com, erick@erickbooth.com" >contact us</a>.
                 When you visit our website and use our services, you trust us with your personal information. I
                 take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest
                 way possible what information we collect, how we use it and what rights you have in relation to it. I
@@ -246,7 +246,7 @@ export default function Privacy() {
 
                 <h2 id='13'>13. HOW CAN YOU CONTACT ME ABOUT THIS POLICY?</h2>
                 If you have questions or comments about this policy, you may email us at
-                <a href="mailto:erick@erickbooth.com"> erick@erickbooth.com</a>, or use our <a href={ `https://www.healthintransportation.com/contact` }>contact form</a>.<br /><br />
+                <a href="mailto:bob@healthintransportation.com, erick@erickbooth.com"> erick@erickbooth.com</a>, or use our <a href={ `https://www.healthintransportation.com/contact` }>contact form</a>.<br /><br />
                 <b>HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</b><br /><br />
                 Based on the laws of some countries, you may have the right to request access to the
                 personal information we collect from you, change that information, or delete it in some
