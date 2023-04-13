@@ -40,7 +40,7 @@ export default function Privacy() {
                     <li><a href='#10'>CONTROLS FOR DO-NOT-TRACK FEATURES</a></li>
                     <li><a href='#11'>DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a></li>
                     <li><a href='#12'>DO WE MAKE UPDATES TO THIS POLICY?</a></li>
-                    <li><a href='#13'>HOW CAN YOU CONTACT ME ABOUT THIS POLICY?</a></li>
+                    <li><a href='#13'>HOW CAN YOU CONTACT US ABOUT THIS POLICY?</a></li>
                 </ol>
                 <br /><br />
                 <h2 id='1'>1. WHAT INFORMATION DO WE COLLECT?</h2>
@@ -244,7 +244,7 @@ export default function Privacy() {
                 encourage you to review this privacy policy frequently to be informed of how we are protecting
                 your information.
 
-                <h2 id='13'>13. HOW CAN YOU CONTACT ME ABOUT THIS POLICY?</h2>
+                <h2 id='13'>13. HOW CAN YOU CONTACT US ABOUT THIS POLICY?</h2>
                 If you have questions or comments about this policy, you may email us at
                 <a href="mailto:bob@healthintransportation.com, erick@erickbooth.com"> erick@erickbooth.com</a>, or use our <a href={ `https://www.healthintransportation.com/contact` }>contact form</a>.<br /><br />
                 <b>HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</b><br /><br />
