@@ -7,6 +7,8 @@ import PhoneApp from '../../public/images/HIT/phone-app.webp';
 
 import AnimatedBus from '@/components/svgs/animatedBus';
 import ContactForm from '@/components/contactForm';
+import Carousel from '@/components/carousel';
+
 export default function Home(props) {
   return (
     <>
@@ -19,7 +21,7 @@ export default function Home(props) {
       </section>
 
       <section id="About" className={ styles.About }>
-        <div className={ styles.image } />
+        <Carousel />
         <div className={ styles.text }>
           <p className={ styles.believe }>Believe Us,</p>
           <p>we know that staying healthy can be a struggle for a professional driver.</p>

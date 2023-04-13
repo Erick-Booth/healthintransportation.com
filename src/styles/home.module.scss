@@ -32,13 +32,34 @@
     flex-direction: column;
     position: relative;
 
-    .image {
-        background: url('/images/stock/driver.webp'), url('/images/stock/driver.jpg');
-        background: url('/images/stock/driver.webp'), url('/images/stock/driver.webp');
-        background-size: cover;
-        background-position: left;
+    .carousel {
+        position: relative;
         height: min(350px, 50vh);
         width: 100%;
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: opacity 1s ease-in-out;
+            opacity: 0;
+
+            &.show {
+                opacity: 1;
+            }
+        }
+
+        &[data-slide="0"] {
+            background-image: url('/images/stock/driver.webp'), url('/images/stock/driver.jpg');
+            background-image: url('/images/stock/driver.webp'), url('/images/stock/driver.webp');
+        }
+
+        &[data-slide="1"] {
+            background-image: url('/images/stock/driver-female.webp'), url('/images/stock/driver-female.jpg');
+            background-image: url('/images/stock/driver-female.webp'), url('/images/stock/driver-female.webp');
+            background-position: center;
+        }
     }
 
     .text {
@@ -72,7 +93,7 @@
         flex-direction: row;
         height: 50vh;
 
-        .image {
+        .carousel {
             height: auto;
             width: 50%;
             clip-path: polygon(0%0%, 90%0%, 100%100%, 0%100%);
@@ -663,15 +684,6 @@
 
         iconify-icon {
             color: globals.$HIT-Red;
-        }
-    }
-}
-
-// Desktop
-@media screen and (min-width: globals.$mobileBreakPoint) {
-    .About {
-        img {
-            clip-path: polygon(0%0%, 90%0%, 100%100%, 0%100%);
         }
     }
 }
