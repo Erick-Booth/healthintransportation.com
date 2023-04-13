@@ -91,7 +91,7 @@ export default function Terms() {
                 CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR
                 BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW
                 OR REGULATION. we MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE ANY CONTENT OR INFORMATION
-                THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN MY SOLE DISCRETION.
+                THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
 
                 <h2>MODIFICATIONS AND INTERRUPTIONS</h2>We reserve the right to change, modify, or remove the contents of the Site at any time
                 or for any reason at our sole discretion without notice. However, we have no obligation to update any
@@ -160,14 +160,14 @@ export default function Terms() {
                 on the Site at any time, without prior notice.
 
                 <h2>DISCLAIMER</h2>THE SITE IS PROVIDED ON AN AS-IS
-                AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND MY SERVICES WILL BE AT YOUR SOLE RISK. TO
+                AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO
                 THE FULLEST EXTENT PERMITTED BY LAW, we DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE
                 SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
                 FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. we MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY
                 OR COMPLETENESS OF THE SITE&rsquo;S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND we WILL ASSUME NO
                 LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2)
                 PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE
-                SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF MY SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION
+                SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION
                 AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM
                 THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE
                 BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR
@@ -180,10 +180,10 @@ export default function Terms() {
                 USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
 
                 <h2>LIMITATIONS OF LIABILITY</h2>IN
-                NO EVENT WILL we OR MY DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT,
+                NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT,
                 INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST
                 REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SITE, EVEN IF we HAVE BEEN ADVISED OF
-                THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, MY LIABILITY TO
+                THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO
                 YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE
                 LESSER OF THE AMOUNT PAID, IF ANYTHING. CERTAIN STATE LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR
                 THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE
@@ -214,7 +214,7 @@ export default function Terms() {
                 agree that all agreements, notices, disclosures, and other communications we provide to you electronically,
                 via email and on the Site, satisfy any legal requirement that such communication be in writing. YOU HEREBY
                 AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY
-                OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY ME OR VIA THE SITE. You hereby
+                OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SITE. You hereby
                 waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any
                 jurisdiction which require an original signature or delivery or retention of non-electronic records, or to
                 payments or the granting of credits by any means other than electronic means.
@@ -227,7 +227,7 @@ export default function Terms() {
 
                 <h2>MISCELLANEOUS</h2>These Terms of Use and any policies or operating
                 rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding
-                between you and me. My failure to exercise or enforce any right or provision of these Terms of Use shall not
+                between you and me. Our failure to exercise or enforce any right or provision of these Terms of Use shall not
                 operate as a waiver of such right or provision. These Terms of Use operate to the fullest extent permissible
                 by law. we may assign any or all of our rights and obligations to others at any time. we shall not be
                 responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond my
