@@ -57,9 +57,9 @@ function MyApp({ Component, pageProps }) {
       <title>Health In Transportation</title>
     </Head>
 
-    <Script src='https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js' />
-    <Script strategy='afterInteractive' src={ `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}` }></Script>
-    <Script strategy='afterInteractive'>
+    <Script id='iconify' src='https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js' />
+    <Script id='google_tag_manager' strategy='afterInteractive' src={ `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}` }></Script>
+    <Script id='google_data_layer' strategy='afterInteractive'>
       { `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
