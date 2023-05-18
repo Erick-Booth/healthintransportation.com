@@ -56,7 +56,18 @@ function MyApp({ Component, pageProps }) {
       <link rel='manifest' href='manifest.json' />
       <title>Health In Transportation</title>
     </Head>
+
     <Script src='https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js' />
+    <Script strategy='afterInteractive' src={ `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}` }></Script>
+    <Script strategy='afterInteractive'>
+      { `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
+      
+      `}
+    </Script>
 
     <Header scrollToTop={ () => scrollToTop() } offset={ offset } />
     <Component { ...pageProps } offset={ offset } />
