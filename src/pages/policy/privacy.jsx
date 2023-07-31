@@ -15,9 +15,9 @@ export default function Privacy() {
                 “our”). We are committed to protecting your personal information and your right to privacy. If
                 you have any questions or concerns about our policy, or our practices with regards to your
                 personal information, please <a href="mailto:Bob@healthintransportation.com, erick@erickbooth.com" >contact us</a>.
-                When you visit our website and use our services, you trust us with your personal information. I
+                When you visit our website and use our services, you trust us with your personal information. We
                 take your privacy very seriously. In this privacy policy, we seek to explain to you in the clearest
-                way possible what information we collect, how we use it and what rights you have in relation to it. I
+                way possible what information we collect, how we use it and what rights you have in relation to it. We
                 hope you take some time to read through it carefully, as it is important. If there are any terms
                 in this privacy policy that you do not agree with, please discontinue use of our website and
                 our services.<br /><br />
@@ -55,7 +55,7 @@ export default function Privacy() {
                 information we collect can include the following:<br />
                 Social Media Login Data. We may provide you with the option to register using social media
                 account details, like your Facebook, Twitter, or other social media account. If you choose to
-                register in this way, we will collect the Information described in the section called &quot;HOW DO I
+                register in this way, we will collect the Information described in the section called &quot;HOW DO WE
                 HANDLE YOUR SOCIAL LOGINS&quot; below.<br /><br />
                 All personal information that you provide to us must be true, complete and accurate, and
                 you must notify us of any changes to such personal information.<br /><br />
@@ -143,7 +143,7 @@ export default function Privacy() {
                 have access to certain information about you.
                 We may offer you the ability to register and login using your third-party social media account
                 details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain
-                profile information about you from your social media provider. The profile Information I
+                profile information about you from your social media provider. The profile Information we
                 receive may vary depending on the social media provider concerned, but will often include
                 your name, e-mail address, friends list, profile picture as well as other information you choose
                 to make public.<br /><br />
@@ -240,7 +240,7 @@ export default function Privacy() {
                 we may update this privacy policy from time to time. The updated version will be indicated by
                 an updated “Revised” date and the updated version will be effective as soon as it is
                 accessible. If we make material changes to this privacy policy, we may notify you either by
-                prominently posting a notice of such changes or by directly sending you a notification. I
+                prominently posting a notice of such changes or by directly sending you a notification. We
                 encourage you to review this privacy policy frequently to be informed of how we are protecting
                 your information.
 

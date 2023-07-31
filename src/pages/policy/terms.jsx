@@ -10,7 +10,7 @@ export default function Terms() {
             <div id="Terms" className={ styles.policy }>
                 <Link href={ '/' }><img src='/images/HIT/logo.png' alt="Health In Transportation" /></Link>
                 <h2>AGREEMENT TO TERMS</h2> <br /><br /> These Terms of Use constitute a legally binding agreement
-                <p>Revised: 2/24/2023</p>
+                <p>Revised: 7/31/2023</p><br />
                 made between you, whether personally or on behalf of an entity (&quot;you&quot;) and Health In Transportation (&quot;Brand&quot;, &rsquo;we&quot;, &quot;us&quot;,
                 or &quot;our&rsquo;), concerning your access to and use of the healthintransportation.com website as well as any other media form,
                 media channel, mobile website or mobile application related, linked, or otherwise connected thereto
@@ -18,8 +18,8 @@ export default function Terms() {
                 be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE
                 EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY. <br /><br /> Supplemental
                 terms and conditions or documents that may be posted on the Site from time to time are hereby expressly
-                incorporated herein by reference. we reserve the right, in our sole discretion, to make changes or
-                modifications to these Terms of Use at any time and for any reason. we will alert you about any changes by
+                incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or
+                modifications to these Terms of Use at any time and for any reason. We will alert you about any changes by
                 updating the &quot;Last Revised&quot; date of these Terms of Use, and you waive any right to receive specific notice
                 of each such change. It is your responsibility to periodically review these Terms of Use to stay informed of
                 updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the
@@ -33,7 +33,7 @@ export default function Terms() {
                 <h2>INTELLECTUAL PROPERTY RIGHTS</h2> Unless otherwise indicated, the Site is our proprietary property and
                 all source code, databases, functionality, software, website designs, audio, video, text, photographs, and
                 graphics on the Site (collectively, the &quot;Content&quot;) and the trademarks, service marks, and logos contained
-                therein (the &quot;Marks&quot;) are owned or controlled by us or licensed to me, and are protected by copyright and
+                therein (the &quot;Marks&quot;) are owned or controlled by us or licensed to us, and are protected by copyright and
                 trademark laws and various other intellectual property rights and unfair competition laws of the United
                 States, foreign jurisdictions, and international conventions. The Content and the Marks are provided on the
                 Site &quot;AS IS&quot; for your information and personal use only. Except as expressly provided in these Terms of Use,
@@ -42,7 +42,7 @@ export default function Terms() {
                 exploited for any commercial purpose whatsoever, without our express prior written permission. <br /><br />
                 Provided that you are eligible to use the Site, you are granted a limited license to access and use the Site
                 and to download or print a copy of any portion of the Content to which you have properly gained access
-                solely for your personal, non-commercial use. we reserve all rights not expressly granted to you in and to
+                solely for your personal, non-commercial use. We reserve all rights not expressly granted to you in and to
                 the Site, the Content and the Marks.
 
                 <h2>USER REPRESENTATIONS</h2>
@@ -56,18 +56,18 @@ export default function Terms() {
                     <li>Your use of the Site will not violate any applicable law or
                         regulation.</li>
                 </ol>
-                <br />If you provide any information that is untrue, inaccurate, not current, or incomplete, I
+                <br />If you provide any information that is untrue, inaccurate, not current, or incomplete, we
                 reserve the right to suspend and/or deny any and all current or future use of the Site (or any portion
                 thereof).
 
                 <h2>PROHIBITED ACTIVITIES</h2>You may not access or use the Site for any purpose other
                 than that for which we make the Site available. The Site may not be used in connection with any commercial
-                endeavors except those that are specifically endorsed or approved by me.
+                endeavors except those that are specifically endorsed or approved by us.
 
                 <h2>SUBMISSIONS</h2>You
                 acknowledge and agree that any questions, comments, suggestions, ideas, feedback, or other information
                 regarding the Site (&quot;Submissions&quot;) provided by you to us are non-confidential and shall become our sole
-                property. we shall own exclusive rights, including all intellectual property rights, and shall be entitled to
+                property. We shall own exclusive rights, including all intellectual property rights, and shall be entitled to
                 the unrestricted use and dissemination of these Submissions for any lawful purpose, commercial or otherwise,
                 without acknowledgment or compensation to you. You hereby waive all moral rights to any such Submissions,
                 and you hereby warrant that any such Submissions are original with you or that you have the right to submit
@@ -86,20 +86,20 @@ export default function Terms() {
                 Site.
 
                 <h2>TERM AND TERMINATION</h2>These Terms of Use shall remain in full force and effect while
-                you use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, we RESERVE THE RIGHT TO, IN MY
+                you use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, we RESERVE THE RIGHT TO, IN OUR
                 SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE (INCLUDING BLOCKING
                 CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR
                 BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW
-                OR REGULATION. we MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE ANY CONTENT OR INFORMATION
+                OR REGULATION. We MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE ANY CONTENT OR INFORMATION
                 THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
 
                 <h2>MODIFICATIONS AND INTERRUPTIONS</h2>We reserve the right to change, modify, or remove the contents of the Site at any time
                 or for any reason at our sole discretion without notice. However, we have no obligation to update any
-                information on our Site. we also reserve the right to modify or discontinue all or part of the Site without
-                notice at any time. we will not be liable to you or any third party for any modification, price change,
+                information on our Site. We also reserve the right to modify or discontinue all or part of the Site without
+                notice at any time. We will not be liable to you or any third party for any modification, price change,
                 suspension, or discontinuance of the Site.<br /><br /> we cannot guarantee the Site will be available at all
-                times. we may experience hardware, software, or other problems or need to perform maintenance related to the
-                Site, resulting in interruptions, delays, or errors. we reserve the right to change, revise, update, suspend,
+                times. We may experience hardware, software, or other problems or need to perform maintenance related to the
+                Site, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend,
                 discontinue, or otherwise modify the Site at any time or for any reason without notice to you. You agree
                 that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to
                 access or use the Site during any downtime or discontinuance of the Site. Nothing in these Terms of Use will
@@ -155,7 +155,7 @@ export default function Terms() {
                 court.
 
                 <h2>CORRECTIONS</h2>There may be information on the Site that contains typographical errors,
-                inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. I
+                inaccuracies, or omissions, including descriptions, pricing, availability, and various other information. We
                 reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information
                 on the Site at any time, without prior notice.
 
@@ -163,7 +163,7 @@ export default function Terms() {
                 AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO
                 THE FULLEST EXTENT PERMITTED BY LAW, we DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE
                 SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
-                FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. we MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY
+                FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. We MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY
                 OR COMPLETENESS OF THE SITE&rsquo;S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND we WILL ASSUME NO
                 LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2)
                 PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE
@@ -172,7 +172,7 @@ export default function Terms() {
                 THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE
                 BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR
                 DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE
-                AVAILABLE VIA THE SITE. we DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR
+                AVAILABLE VIA THE SITE. We DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR
                 SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR
                 MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND we WILL NOT BE A PARTY TO OR IN ANY WAY
                 BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR
@@ -197,7 +197,7 @@ export default function Terms() {
                 third party, including but not limited to intellectual property rights; or (5) any overt harmful act toward
                 any other user of the Site with whom you connected via the Site. Notwithstanding the foregoing, we reserve
                 the right, at your expense, to assume the exclusive defense and control of any matter for which you are
-                required to indemnify me, and you agree to cooperate, at your expense, with our defense of such claims. I
+                required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We
                 will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this
                 indemnification upon becoming aware of it.
 
@@ -227,15 +227,15 @@ export default function Terms() {
 
                 <h2>MISCELLANEOUS</h2>These Terms of Use and any policies or operating
                 rules posted by us on the Site or in respect to the Site constitute the entire agreement and understanding
-                between you and me. Our failure to exercise or enforce any right or provision of these Terms of Use shall not
+                between you and us. Our failure to exercise or enforce any right or provision of these Terms of Use shall not
                 operate as a waiver of such right or provision. These Terms of Use operate to the fullest extent permissible
-                by law. we may assign any or all of our rights and obligations to others at any time. we shall not be
-                responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond my
+                by law. We may assign any or all of our rights and obligations to others at any time. We shall not be
+                responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our
                 reasonable control. If any provision or part of a provision of these Terms of Use is determined to be
                 unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these
                 Terms of Use and does not affect the validity and enforceability of any remaining provisions. There is no
                 joint venture, partnership, employment or agency relationship created between you and us as a result of
-                these Terms of Use or use of the Site (with respect to the services provided by me, any joint venture,
+                these Terms of Use or use of the Site (with respect to the services provided by us, any joint venture,
                 partnership, employment or agency relationship is formed after direct communication between us and potential
                 clientele, partners, employees, and agents respectively). You agree that these Terms of Use will not be
                 construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have
