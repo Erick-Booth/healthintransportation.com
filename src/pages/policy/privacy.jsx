@@ -10,7 +10,7 @@ export default function Privacy() {
             <div id="Privacy Policy" className={ styles.policy }>
                 <Link href={ '/' }><img src='/images/HIT/logo.png' alt="Health In Transportation" /></Link>
                 <h1>PRIVACY POLICY</h1><br /><br />
-                <p>Revised 4/13/2023</p><br />
+                <p>Revised 7/31/2023</p><br />
                 Thank you for choosing to be part of our community at healthintransportation.com (“Brand”, “we”, “us”, or
                 “our”). We are committed to protecting your personal information and your right to privacy. If
                 you have any questions or concerns about our policy, or our practices with regards to your
