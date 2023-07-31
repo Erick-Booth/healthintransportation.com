@@ -37,7 +37,7 @@ export default function Carousel() {
         <div className={ styles.carousel }>
             {
                 IMAGES.map((item, i) => {
-                    return <img key={ i } src={ `/images/stock/${item.src}.webp` } className={ imageIndex === i ? styles.show : undefined } style={ { objectPosition: item.position } } loading='lazy' />;
+                    return <img key={ i } src={ `/images/stock/${item.src}.webp` } className={ imageIndex === i ? styles.show : undefined } style={ { objectPosition: item.position } } loading='lazy' alt='' />;
                 })
             }
         </div>
